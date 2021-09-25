@@ -172,6 +172,7 @@ type SleepSummaries struct {
 	Status int `json:"status"`
 	Body   struct {
 		Series []struct {
+			ID        int64  `json:"id"`
 			Timezone  string `json:"timezone"`
 			Model     int    `json:"model"`
 			ModelID   int    `json:"model_id"`
